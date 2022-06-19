@@ -8,15 +8,12 @@ public class AllPath {
                 {true,true,true},
                 {true,true,true}
         };
-        boolean[][] board2 = {
-                {true,true},
-                {true,true}
-        };
+
         allPath("",board,0,0);
     }
 
     static void allPath(String p, boolean[][] maze, int r, int c){
-        if (r == maze.length-1 && c == maze[0].length-1){
+        if (r == maze.length-1 && c == maze.length-1){
             System.out.println(p);
             return;
         }
