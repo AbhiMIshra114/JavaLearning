@@ -18,8 +18,6 @@ public class Maze {
         pathRestrictions("",board,0,0);
 
     }
-
-
     static int countPaths(int r, int c){
 
         if (r == 1 || c == 1)

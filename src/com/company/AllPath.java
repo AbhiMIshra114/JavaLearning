@@ -10,7 +10,7 @@ public class AllPath {
         };
 
         allPath("",board,0,0);
-        
+
     }
 
     static void allPath(String p, boolean[][] maze, int r, int c){
