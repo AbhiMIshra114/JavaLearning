@@ -1,12 +1,18 @@
 package sorting;
 
 import java.util.Arrays;
+import java.util.Locale;
+
 // this is code is not working
 public class InPlaceMergeSort {
     public static void main(String[] args) {
-        int[] arr = {5,4,3,2,1};
-        inPlaceMergeSort(arr,0,arr.length-1);
-        System.out.println(Arrays.toString(arr));
+        String s = "aBhiSekh Mishra";
+
+        String s1 = s.toLowerCase();
+        System.out.println(s1);
+//        int[] arr = {5,4,3,2,1};
+//        inPlaceMergeSort(arr,0,arr.length-1);
+//        System.out.println(Arrays.toString(arr));
 
     }
     static void inPlaceMergeSort(int[] arr, int s, int e){
